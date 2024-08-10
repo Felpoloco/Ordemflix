@@ -1,0 +1,85 @@
+body {
+    color: rgb(165, 232, 255);
+    background: rgb(0, 34, 79);
+    margin: 0px;
+    font-family: "comic neue", cursive;
+    margin-bottom: 50px;
+}
+
+header {
+    border-bottom: solid 2px rgb(42, 122, 228);
+    padding: 20px;
+    font-size: 35px;
+    font-weight: 900;
+    color: rgb(42, 122, 228);
+}
+
+.chamada{
+    background: rgb(0, 143, 190);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+}
+.chamada-texto{
+    margin-right: 5%;
+}
+h1{
+    font-size: 45px;
+    }
+    p{
+    font-size: 20px;
+    }
+img{
+    height: 150px;
+    }
+
+
+.categoria{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+.temporadas{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px
+}
+.temporadas img{
+    opacity:0.5;
+    height: 150px;
+}
+.temporadas img:hover{
+    opacity:1.0;
+    height: 150px;
+    border: 1px solid red;
+}
+.spin-off{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px
+}
+.spin-off img{
+    opacity:0.5;
+    height: 150px;
+}
+.spin-off img:hover{
+    opacity:1.0;
+    height: 150px;
+    border: 1px solid red;
+}
+.especiais{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px
+}
+.especiais img{
+    opacity:0.5;
+    height: 150px;
+}
+.especiais img:hover{
+    opacity:1.0;
+    height: 150px;
+    border: 1px solid red;
+}
